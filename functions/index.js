@@ -1,4 +1,9 @@
 const functions = require('firebase-functions');
+const { gqlServer } = require('./graphql/server');
+
+const server = gqlServer();
+
+exports.api = functions.https.onRequest(server);
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
