@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "scripts": {
+    "test": "lerna run test --scope={@ecommerce/common,@ecommerce/server}",
+    "new-version": "lerna version --conventional-commits --yes",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
