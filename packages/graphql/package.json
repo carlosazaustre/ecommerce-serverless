@@ -10,7 +10,7 @@
   "author": "Carlos Azaustre",
   "license": "MIT",
   "dependencies": {
-    "@ecommerce/domain": "^1.0.1",
+    "@ecommerce/domain": "*",
     "apollo-server": "^2.16.0",
     "graphql": "^15.3.0"
   }
