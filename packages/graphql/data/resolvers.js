@@ -1,4 +1,4 @@
-const { item } = require('@ecommerce/db');
+const { item } = require('@ecommerce/domain');
 
 const resolvers = {
   Query: {
