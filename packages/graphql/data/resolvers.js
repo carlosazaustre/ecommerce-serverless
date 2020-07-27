@@ -2,8 +2,8 @@ const { item } = require('@ecommerce/db');
 
 const resolvers = {
   Query: {
-    items: async () => await item.getAll(),
-    item: async (parent, { slug }) => await item.get(slug),
+    items: async () => await item.getAllItems(),
+    item: async (parent, { slug }) => await item.getItem(slug),
   },
 
   Mutation: {
@@ -19,7 +19,7 @@ const resolvers = {
         price,
         photo,
       }
-      const itemId = await item.create(newItem);
+      const itemId = await item.createItem(newItem);
       return {
         ...newItem,
         id: itemId
