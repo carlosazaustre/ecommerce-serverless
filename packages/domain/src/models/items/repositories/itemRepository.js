@@ -1,6 +1,6 @@
 'use strict';
 
-const { list, getBy, add } = require('./itemFirebaseRepository');
+const { list, getBy, add } = require('./itemRepositoryFirebase');
 
 module.exports = {
   list,

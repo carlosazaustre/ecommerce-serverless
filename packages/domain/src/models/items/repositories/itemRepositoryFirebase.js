@@ -1,6 +1,6 @@
 'use strict';
 
-const database = require('../../../adapters/firebase');
+const database = require('../../../infra/database');
 const ITEMS_COLLECTION = 'items';
 
 const dbRef = database.collection(ITEMS_COLLECTION);
