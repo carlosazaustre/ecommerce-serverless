@@ -1,6 +1,6 @@
 {
   "name": "@ecommerce/domain",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Ecommerce App - Database Module",
   "main": "index.js",
   "scripts": {
